@@ -8,7 +8,7 @@ using System.Xml;//this isfo total subject
 //I want to put all subjects marks and add them and convert them into percentage
 class Program
 {
-    static void main (string[] args)
+    static void Main (string[] args)
     {
         var markslist = new List<float>();//this list I created for the total subject list
         Console.Write("What is the full marks for all total subjects?");
@@ -87,7 +87,7 @@ class Program
             }
         if((float)percent>=70)
         {
-        Console.WriteLine($"Congratulations! you are passed! You have got {letter} grade with {percent}% and the sum total {sum}. Please try again latter.");
+        Console.WriteLine($"Congratulations! you are passed! You have got {letter} grade with {percent}% and the sum total {sum}.");
         }
         else
         {

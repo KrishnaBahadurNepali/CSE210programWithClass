@@ -1,4 +1,8 @@
+<<<<<<< HEAD
    using System;
+=======
+using System;
+>>>>>>> 7cd4a1c51dc52a41138c98092120d17645f67429
    //using System.Security.Cryptography; I tried to Encrypt the message
    //using System.Text;
 
